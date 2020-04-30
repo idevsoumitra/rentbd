@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RentBD</title>
+    <script  src="js/jquery-3.4.1.min.js"></script>
+    
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="header" id="myHeader">
+            <div class="row">
+                <div class="logo_section">
+                    <a href="#"><img src="images/rent_logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="selling_part">
+                    <center>
+                        <select name="buy" id="buy_sec">
+                            <option value="">Buy</option>
+                        </select>
+                        <select name="rent" id="buy_sec">
+                            <option value="">Rent</option>
+                        </select>
+                    </center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="nev">
+                    <ul>
+                        <li><a href="" id="nev_1">Home</a></li>
+                        <li><a href="">Blog</a></li> 
+                        <li><a href="">About Site</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="log_sec">
+                    <nav>
+                        <ul>
+                            <li id="login">
+                                <a id="login-trigger" href="#">
+                                Log in <span>▼</span>
+                                </a>
+                                <div id="login-content">
+                                    <form>
+                                        <fieldset id="inputs">
+                                            <input  id="username"type="email"name="Email"placeholder="Your email address"required>
+                                            <input  id="password" type="password"name="Password"placeholder="Password" required>
+                                        </fieldset>
+                                        <fieldset id="actions">
+                                            <input  type="submit"id="submit" value="Log in">
+                                            <label>
+                                                <input  type="checkbox"checked="checked">
+                                                Keep me signed in
+                                                <p><a href="">Forgotten Password!</a></p>
+                                            </label>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </li>
+                          <li id="signup">
+                            <a href="">Sign up FREE</a>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="src">
+            <form action="#" method="" id="search_form">
+                <center>
+                    <p class="form_sep" id="loc">
+                        <span>Location</span> <br>
+                        <input type="text" name="location" >
+                    </p>
+                    <p class="form_sep">
+                        <span>Property Type</span>
+                        <select name="pro_type" id="">
+                            <option value="">Select Type</option>
+                        </select>
+                    </p>
+                    <p class="form_sep">
+                        <span>Select Price</span> <br>
+                        <select name="prc" id="prc_box">
+                            <option value="">Max Price</option>
+                            <option value="">Max Price</option>
+                        </select>
+                        
+                        <select name="prc" id="prc_box">
+                            <option value="">Min Price</option>
+                        </select>
+                    </p>
+                    <p class="form_sep2" id="sep2_1">
+                        <span>Bedrooms</span> <br>
+                        <input type="Number" name="brooms" >
+                    </p>
+                    <p class="form_sep2" id="area">
+                        <span>Select Area</span> <br>
+                        <select name="prc" id="prc_box">
+                            <option value="">Max Sqft</option>
+                            <option value="">Max</option>
+                        </select>
+                        <select name="prc" id="prc_box">
+                            <option value="">Min Sqft</option>
+                        </select>
+                    </p>
+                    <p class="form_sep2">
+                        <span>Baths</span> <br>
+                        <input type="Number" name="bath" >
+                    </p>
+                    <p class="form_sep2" id="btn_form">
+                        <input type="submit" name="submit" value="Search" id="btn">
+                    </p>
+                </center>
+            </form>
+        </div> <!---END OF DIV SEARCH-->
+    </div> <!---END OF DIV ROW-->
+    
+    <div class="container">
+        <div class="con">
+            <div class="row">
+                <div class="count_home">
+                    <div class="count_body">
+                        <p>
+                            <li><a href="">Dhaka <p>(100)</p></a></li>
+                            <li><a href="">Dhaka <p>(100)</p></a></li>
+                            <li><a href="">Dhaka <p>(100)</p></a></li>
+                            <br>
+                            <center>
+                                <span id="dots">...</span>
+                            </center>
+                            <span id="more">
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                                <li><a href="">Dhaka <p>(100)</p></a></li>
+                            </span>
+                        </p>
+                        <center>
+                            <button onclick="myFunction()" id="myBtn">Read more</button>
+                        </center>
+        
+                    </div>
+                </div>
+            </div>
+            <div class="row view">
+                <div class="link_part" id="link">
+                    
+                </div>
+                <div class="house_sort_part">
+    
+                </div>
+                <div class="house_details_part">
+    
+                </div>
+                <div class="house_details_part">
+    
+                </div>
+                <div class="house_details_part">
+    
+                </div>
+                <div class="house_details_part">
+    
+                </div>
+                
+            </div>
+        </div>
+    </div> <!----END OF DIV CONTAINER-->
+    <div class="container">
+        <div class="footer">
+            
+        </div>
+    </div>
+    <!-- HEADER FIXED -->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
+    <!-- HEADER FIXED -->
+    <!-- LOGIN SECTION -->
+    <script>
+        $(document).ready(function(){
+        $('#login-trigger').click(function(){
+          $(this).next('#login-content').slideToggle();
+          $(this).toggleClass('active');
+    
+          if ($(this).hasClass('active')) $(this).find('span').html('&#x25B2;')
+            else $(this).find('span').html('&#x25BC;')
+          })
+      }); 
+    </script>  
+    <!-- LOGIN SECCTION  -->
+
+    <!-- SEE MORE  -->
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+    </script>
+    <!-- SEE MORE -->
+</body>
+</html>
+
