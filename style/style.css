@@ -1,0 +1,392 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+}
+    .sticky{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+    }
+    .src{
+        width: 100%;
+        min-height: 200px;
+        /* background-color: cadetblue; */
+        margin: 0;
+    }    
+    .logo_section{
+        width: 25%;
+        float: left;
+        height: 80px;
+    }
+        .logo_section img{
+            width: 150px;
+            height: 80px;
+            margin-left: 30%;
+        }
+    .selling_part{
+        width: 25%;
+        float: left;
+        height: 80px;
+    }
+        #buy_sec{
+            width: 30%;
+            height: 50px;
+            margin-top: 10px;
+            
+        }
+    #nev_1{
+        margin-left: 10px;
+    }
+    .nev{
+        width: 30%;
+        height: 80px;
+        float: left;
+        
+    }
+        .nev ul{
+            margin-top: 20px;
+  
+        }
+            .nev li{
+                display: inline;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-right: 30px;
+            }
+                .nev a{
+                    text-decoration: wavy;
+                    font-size: 25px;
+                    text-align: center;
+                }
+                .nev a:hover{
+                    letter-spacing: 1px;
+                    color: lightslategray;
+                    transition: .1s ease;
+                }
+    /* Start Login Section */
+    .log_sec{
+        width: 20%;
+        height: 80px;
+        float: left;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        float: left;
+        background: #eee;
+        border-bottom: 1px solid #fff;
+        border-radius: 1px;
+        margin-top: 22px;
+        margin-left: 3%;
+      }
+    
+      nav li {
+        float: left;
+      }
+    
+      nav #login {
+        border-right: 1px solid #ddd;
+        box-shadow: 1px 0 0 #fff;
+      }
+    
+      nav #login-trigger,
+      nav #signup a {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        height: 25px;
+        line-height: 25px;
+        font-weight: bold;
+        padding: 0 8px;
+        text-decoration: none;
+        color: #444;
+        text-shadow: 0 1px 0 #fff;
+      }
+    
+      nav #signup a {
+        border-radius: 0 3px 3px 0;
+      }
+    
+      nav #login-trigger {
+        border-radius: 3px 0 0 3px;
+      }
+    
+      nav #login-trigger:hover,
+      nav #login .active,
+      nav #signup a:hover {
+        background: #fff;
+      }
+    
+      nav #login-content {
+        display: none;
+        position: absolute;
+        top: 24px;
+        right: 0;
+        z-index: 999;
+        background: #fff;
+        background-image: linear-gradient(top, #fff, #eee);
+        padding: 15px;
+        box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+        border-radius: 3px 0 3px 3px;
+      }
+    
+      nav li #login-content {
+        right: 0;
+        width: 250px;
+      }
+    
+      #inputs input {
+        background: #f1f1f1;
+        padding: 6px 5px;
+        margin: 0 0 5px 0px;
+        width: 208px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-shadow: 0 1px 1px #ccc inset;
+      }
+    
+      #inputs input:focus {
+        background-color: #fff;
+        border-color: #e8c291;
+        outline: none;
+        box-shadow: 0 0 0 1px #e8c291 inset;
+      }
+    
+      #login #actions {
+        margin: 10px 0 0 0;
+      }
+    
+      #login #submit {
+        background-color: #d14545;
+        background-image: linear-gradient(top, #e97171, #d14545);
+        border-radius: 3px;
+        text-shadow: 0 1px 0 rgba(0,0,0,.5);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
+                    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+        border: 1px solid #7e1515;
+        float: left;
+        height: 30px;
+        padding: 0;
+        width: 100px;
+        cursor: pointer;
+        font: bold 14px Arial, Helvetica;
+        color: #fff;
+      }
+    
+      #login #submit:hover,
+      #login #submit:focus {
+        background-color: #e97171;
+        background-image: linear-gradient(top, #d14545, #e97171);
+      }
+    
+      #login #submit:active {
+        outline: none;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+      }
+    
+      #login label {
+        float: left;
+        line-height: 30px;
+      }
+      #login p{
+          font-size: 10px;
+      }
+      #login a{
+          text-decoration: none;
+      }
+            #login a:hover{
+                text-decoration: none;
+                
+            }
+    
+      #login label input {
+        position: relative;
+        top: 2px;
+        right: 2px;
+      }
+
+    /* END LOGIN SECTION */
+    /* SEARCH FORM PART ONE */
+
+    #search_form{
+        float: right; width: 100%; padding: 0px 0; background: url("images/black_cover.jpg");
+        height: 200px;
+    }
+    #loc span{
+        margin-left: 40px;
+    }
+    .form_sep{
+        margin-top: 20px;
+        margin-left: 4.5%;
+        float: left;
+        width: 25%;
+        padding: 0 20px;
+        height: 70px;
+        /* background-color: blueviolet; */
+    }
+        .form_sep input{
+            width: 85%; height: 50%; border-radius: 5px; border: 1px solid white;
+        }
+        .form_sep select{
+            margin-top: 5px;
+            width: 90%; height: 50%; border-radius: 5px; border: 1px solid white;
+        }
+        .form_sep span{
+            margin-left: 25px;letter-spacing: 1px;
+            font-size: 12px;float: left; color: thistle;
+        }
+        .form_sep option{
+            background-color: rgba(21, 235, 199, 0.089); 
+        }
+            #prc_box{
+                margin-top: 5px;
+                width: 40%; height: 50%; border-radius: 5px; border: 1px solid white;
+                background-color: white; float: left;
+                margin-left: 25px;
+                
+            }
+    /* SEARCH FORM PART TWO */
+    #sep2_1{
+        margin-left: 6%;
+    }
+    #sep2_1 span{
+        margin-left: 15px;
+    }
+    .form_sep2{
+        margin-top: 0px;
+        float: left;
+        width: 18%;
+        margin-right: 2%;
+        padding: 0 20px;
+        height: 70px;
+        /* background-color: blueviolet; */
+    }
+            .form_sep2 input{
+                width: 95%; height: 50%; border-radius: 5px; border: 1px solid white;
+                margin-left: 10px;
+            }
+            .form_sep2 select{
+                margin-top: 5px;
+                width: 90%; height: 50%; border-radius: 5px; border: 1px solid white;
+            }
+            .form_sep2 span{
+                margin-left: 25px;letter-spacing: 1px;
+                font-size: 12px;float: left; color: thistle;
+            }
+            .form_sep2 option{
+                background-color: rgba(21, 235, 199, 0.089); 
+            }  
+            #area{
+                width: 25% ;
+            }
+            #btn_form{
+                margin-left: 2%;
+                width: 200px;
+            }
+            #btn{
+                width: 150px;
+                height: 50px;
+                background-color: rgb(28, 37, 37);
+                margin-top: 10px;
+                float: right;
+                margin-right: 30px;
+                font-size: 20px;
+                color: thistle;
+            }
+            #btn:hover{
+                background-color: rgb(97, 146, 252);
+                letter-spacing: 1px;
+                transition: 1s ease;
+                color: darkslategray;
+            }
+
+            
+    
+.con{
+    width: 90%;
+    min-height: 500px;
+    /* background-color: bisque; */
+    /* border: .5px solid black; */
+    margin: 0 auto;
+    box-shadow: 0px 10px 20px #aaaaaa;
+}
+    .count_home{
+        width: 90%;
+        margin: 0 auto;
+        min-height: 140px;
+        /* background-color: brown; */
+        padding-top: 10px;
+    }
+        .count_body{
+            width: 99.9%;
+            /* border: 1px solid slategrey; */
+            border-top: 1px solid slategrey;
+            min-height: 100px;  
+            box-shadow: 0px 10px 20px #aaaaaa;
+            
+        }
+            .count_body li{
+                margin-top: 10px;
+                text-align: center;
+                display: inline-block;
+                margin-left: 20.5%;
+                
+            }
+            .count_body a{
+                text-decoration: none;
+                display: inline block;
+                margin: 20px 0 0 0 ;
+                font-family: cursive;
+                
+                
+            }
+            .count_body p{
+                display: inline;  
+            }
+            #myBtn{
+                text-decoration: none;
+                margin-top: 10px;
+                float: bottom;
+            }
+            #more{
+                display: none;
+            }
+            
+    .view{
+        width: 100%;
+        background-color: chocolate;
+        float: left;
+    }
+        .link_part{
+            float: right;
+            width: 35%;
+            background-color: darkcyan;
+            height: 500px;
+        }
+        .house_sort_part{
+            width: 65%;
+            background-color: coral;
+            height: 200px;
+            float: left;
+        }
+        .house_details_part{
+            width: 65%;
+            background-color: darkslateblue ;
+            height: 200px;
+            float: left;
+        }
+
+.footer{
+    background: url("images/black_cover.jpg");
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+        
+  
